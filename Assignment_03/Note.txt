@@ -1,0 +1,9 @@
+// Use below command to view all net ports
+netstat -lnp
+
+// To kill a port number PORT
+fuser -k PORT/tcp
+
+(or)
+
+sudo tcpkill -9 port PORT
