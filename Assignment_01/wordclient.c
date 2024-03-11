@@ -34,6 +34,7 @@ int main() {
     servaddr.sin_family = AF_INET;
     servaddr.sin_port = htons(8181);
     err = inet_aton("127.0.0.1", &servaddr.sin_addr);
+    // servaddr.sin_addr.s_addr = inet_addr("127.0.0.1");
     if (err == 0) {
         printf("Error in ip-conversion\n");
         exit(EXIT_FAILURE);

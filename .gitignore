@@ -3,5 +3,11 @@
 
 *.log
 
+./Assignment_04/client.c
+./Assignment_04/server.c
+./Assignment_04/ip.c
+
+.gitignore
 .vscode/
 
+gitkey.txt
